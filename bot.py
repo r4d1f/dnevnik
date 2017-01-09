@@ -7,6 +7,7 @@ import time
 dict ={}
 dict1={}
 bot = telebot.TeleBot(config.token)
+setWebhook("https://dnevnikbot.herokuapp.com")
 @bot.message_handler(commands = ['start'])
 def start(message):
     bot.send_message(message.chat.id, 'Для начала работы введите логин и пароль в следующем виде\nlogin:password\nА затем выберите день недели')
