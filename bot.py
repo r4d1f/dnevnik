@@ -3,7 +3,6 @@ import config
 import telebot
 import dnevnik
 import requests
-import time
 dict ={}
 dict1={}
 bot = telebot.TeleBot(config.token)
