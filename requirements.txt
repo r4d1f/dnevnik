@@ -1,2 +1,2 @@
-requests==2.12.1
+requests==2.20.0
 pytelegrambotapi==2.2.3
